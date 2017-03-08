@@ -1,6 +1,6 @@
 # gravity.vim
 [Gravity](https://github.com/marcobambini/gravity)
-Syntax Highlighting for vim
+Syntax Highlighting for vim.
 
 Since gravity has quite a similar structure to swift, this has been modified
 from
