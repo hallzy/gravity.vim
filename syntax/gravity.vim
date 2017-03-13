@@ -102,6 +102,7 @@ syntax keyword gravityAvailabilityArg renamed unavailable introduced deprecated 
 
 " Keywords {{{
 syntax keyword gravityKeywords
+      \ and
       \ associatedtype
       \ associativity
       \ atexit
@@ -138,8 +139,10 @@ syntax keyword gravityKeywords
       \ mutating
       \ nil
       \ nonmutating
+      \ not
       \ operator
       \ optional
+      \ or
       \ override
       \ postfix
       \ precedence
