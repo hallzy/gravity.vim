@@ -1,4 +1,5 @@
 autocmd BufNewFile,BufRead *.gravity set filetype=gravity
+autocmd BufNewFile,BufRead *.gr set filetype=gravity
 autocmd BufRead * call s:Gravity()
 function! s:Gravity()
   if !empty(&filetype)

@@ -7,6 +7,7 @@ from
 [keith/swift.vim](https://github.com/keith/swift.vim), and will be updated from
 now on to work better with gravity.
 
+This syntax highlight supports the file extensions `.gravity` and `.gr`
 
 ## Installation
 
