@@ -247,11 +247,16 @@ syntax region gravityComment start="/\*" end="\*/"
       \ contains=gravityTodos,gravityDocString,gravityMarker,gravityComment,@Spell fold
 
 
+" Range patterns, ex: start...end
+syntax match gravityRange "\v[a-zA-Z0-9]+\.\.[<\.]{1}[a-zA-Z0-9]+"
+syntax match gravityRangeFalse "\v[a-zA-Z0-9]+[\.]{2}[a-zA-Z0-9]+"
+
 " Set highlights
 highlight default link gravityTodos Todo
 highlight default link gravityDocString String
 highlight default link gravityShebang Comment
 highlight default link gravityComment Comment
+highlight default link gravityRange PreProc
 highlight default link gravityMarker Comment
 
 highlight default link gravityString String
